@@ -20,12 +20,36 @@
     color: white;
   }
 
-  @media only screen and (min-width: 900px) {
-    .footer{
+  @media only screen and (max-width: 900px) {
+    .footer .socialMedia svg {
+      width: 70px;
+    }
+    .footer .socialMedia {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer .socialMedia svg {
       display: none;
     }
-    .socialMedia{
-      padding-left: 50px;
+  
+    .footer .socialMedia {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .footer .socialMedia svg {
       display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .footer .socialMedia {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
     }
   }
