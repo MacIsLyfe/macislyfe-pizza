@@ -20,7 +20,7 @@
     color: white;
   }
 
-  @media only screen and (max-width: 900px) {
+  /* @media only screen and (max-width: 900px) { 
     .footer .socialMedia svg {
       width: 70px;
     }
@@ -34,7 +34,7 @@
       display: none;
     }
   
-    .footer .socialMedia {
+    .footer .socialMedia svg {
       justify-content: flex-end;
       padding-right: 50px;
     }
@@ -45,11 +45,7 @@
   }
   
   @media only screen and (min-width: 600px) {
-    .footer .socialMedia {
+    .footer .socialMedia svg {
       display: none;
     }
-  
-    .hiddenLinks {
-      display: none;
-    }
-  }
+  }*/
